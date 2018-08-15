@@ -1,0 +1,22 @@
+body{
+    background: url('../images/automn.jpg') no-repeat;
+  }
+  .dot{
+    width:35px;
+    height:35px;
+    position:absolute;
+    background: url(http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png);
+    background-size: 100% 100%;
+  }
+  
+  #DiacoDesignLink,#pens{
+    color: #fff;
+  }
+  
+  .words{
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
